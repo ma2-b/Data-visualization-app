@@ -10,3 +10,4 @@ class ProductForm(forms.ModelForm):
             'name': forms.TextInput(attrs={'class':'form-control'}),
             'quantity': forms.TextInput(attrs={'class':'form-control'}),
         }
+        
